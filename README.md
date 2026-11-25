@@ -13,10 +13,10 @@ Karlan and List (2007) randomized a matching-grant offer across 50,083 past dono
 
 | Member | GitHub | Stream |
 |---|---|---|
-| Ryan (PM) | [@RyanChenJung](https://github.com/RyanChenJung) | TBD |
-| Adi | [@asingh49-cmd](https://github.com/asingh49-cmd) | TBD |
-| Hoon | [@jhoonyum](https://github.com/jhoonyum) | TBD |
-| Yuta | [@yutakoba120](https://github.com/yutakoba120) | TBD |
+| Ryan (PM) | [@RyanChenJung](https://github.com/RyanChenJung) | A: answer key and integration |
+| Adi | [@asingh49-cmd](https://github.com/asingh49-cmd) | B: structure and checks |
+| Hoon | [@jhoonyum](https://github.com/jhoonyum) | D: heterogeneity and deck |
+| Yuta | [@yutakoba120](https://github.com/yutakoba120) | C: benchmark |
 
 ## Setup (macOS, Apple silicon)
 

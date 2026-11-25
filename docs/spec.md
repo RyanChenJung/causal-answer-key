@@ -783,10 +783,10 @@ gh issue list --state open --limit 500 --json assignees,labels --jq '[.[] | {who
 
 | Member | GitHub login | Stream lead | Review partner | Speaker block | Zoom role |
 |---|---|---|---|---|---|
-| Ryan | `RyanChenJung` | | | | |
-| Adi | `asingh49-cmd` | | | | |
-| Hoon | `jhoonyum` | | | | |
-| Yuta | `yutakoba120` | | | | |
+| Ryan | `RyanChenJung` | A (and PM) | Hoon (D) | set at 12-01 | |
+| Adi | `asingh49-cmd` | B | Yuta (C) | set at 12-01 | Backup screen sharer |
+| Hoon | `jhoonyum` | D | Ryan (A) | set at 12-01 | Screen sharer |
+| Yuta | `yutakoba120` | C | Adi (B) | set at 12-01 | |
 
 - **Stream leads.** A stream lead owns that stream's notebooks and decides inside the stream. Individual tickets can go to any member, by open hours (§14).
 - **Roles.** Ryan is PM: he runs the Issues and the cadence, and breaks ties on cross-stream questions after 24 hours without consensus.
