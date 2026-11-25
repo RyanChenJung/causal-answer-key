@@ -1,0 +1,23 @@
+# OS and editors
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Environments and local tool state
+.venv/
+*.env
+.remember/
+.claude/settings.local.json
+
+# Private files (Chinese translations, course summaries, drafts)
+_private/
+
+# Build outputs
+build/
+results/dev/
+
+# Data: only the Karlan & List file and its README are committed
+data/*
+!data/karlan_list_2007.dta
+!data/README.md

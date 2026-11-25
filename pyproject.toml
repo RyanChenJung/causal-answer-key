@@ -1,0 +1,44 @@
+[project]
+name = "answerkey"
+version = "0.1.0"
+description = "Grading causal methods against a fundraising experiment (ADSP 32029, Team 7)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    # Pinned combination verified on 2026-11-24 (docs/spec.md, Appendix B).
+    "dowhy==0.14",
+    "econml==0.17.1",
+    "causalml==0.15.5",
+    "lightgbm==4.7.0",
+    "scikit-learn==1.9.1",
+    "numpy==2.4.6",
+    "pandas==3.1.1",
+    "scipy==1.15.3",
+    "statsmodels==0.15.0",
+    "pgmpy==1.1.2",
+    "matplotlib==3.11.2",
+    "joblib==1.6.0",
+    "jupytext==1.19.7",
+    "nbconvert==7.17.2",
+    "nbformat==5.11.1",
+    "ipykernel==7.4.0",
+    "jupyterlab",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "nbstripout",
+    "pre-commit",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/answerkey"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
